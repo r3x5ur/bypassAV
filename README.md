@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ### 0x03 Using
 
 ```bash
-# 1. 到template目录下找到loader.txt 换成自己生成的Shllcode [base64版本]
+# 1. 到template目录下找到loader.txt 换成自己生成的Shellcode [base64版本]
 # 激活虚拟环境
 venv\Script\active
 # 2.打开make.py最后一行，把url变成你一个对外的web服务
@@ -45,5 +45,5 @@ python make.py
 # 会生成一个随机文件夹，里面的main.py就是你要的，其他的 .0 .1 .2 就是需要对外的web文件
 # 最好是将main.py打包成exe 
 # 怎么打包自己研究
-#里面的变量都是随机的，每次被杀了 重新make一份就好了
+# 里面的变量都是随机的，每次被杀了 重新make一份就好了
 ```
