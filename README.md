@@ -21,6 +21,8 @@
 ### 0x02 Install
 
 ```bash
+# 克隆本仓库
+git clone https://github.com/rexSurprise/bypassAV.git
 # 创建一个虚拟环境
 cd bypassAV
 python -m venv venv
